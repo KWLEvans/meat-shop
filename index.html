@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Form Practice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meat Market</h1>
+      <form id="animalSelect">
+        <div class="radio radio-inline">
+          <label>
+            <input type="radio" name="animal" value="chicken">
+            Chicken
+          </label>
+        </div>
+        <div class="radio radio-inline">
+          <label>
+            <input type="radio" name="animal" value="pig">
+            Pig
+          </label>
+        </div>
+        <div class="radio radio-inline">
+          <label>
+            <input type="radio" name="animal" value="cow">
+            Cow
+          </label>
+        </div>
+        <div class="radio radio-inline">
+          <label>
+            <input type="radio" name="animal" value="fish">
+            Fish
+          </label>
+        </div>
+      </form>
+      <select id="meat-type" class="form-control">
+        <option></option>
+        <option class="chicken">Breast</option>
+        <option class="chicken">Thigh</option>
+        <option class="chicken">Drumstick</option>
+        <option class="chicken">Half</option>
+        <option class="chicken">Whole</option>
+        <option class="pig">Chop</option>
+        <option class="pig">Loin</option>
+        <option class="pig">Tenderloin</option>
+        <option class="pig">Shoulder</option>
+        <option class="pig">Baby Back Ribs</option>
+        <option class="pig">Spare Ribs</option>
+        <option class="pig">Bacon</option>
+        <option class="cow">Filet Mignon</option>
+        <option class="cow">Flank</option>
+        <option class="cow">Flat Iron</option>
+        <option class="cow">Hanger</option>
+        <option class="cow">Porterhouse</option>
+        <option class="cow">Rib-Eye</option>
+        <option class="cow">Sirloin</option>
+        <option class="cow">T-bone</option>
+        <option class="cow">Skirt</option>
+        <option class="cow">Tri-Tip</option>
+        <option class="cow">Brisket</option>
+        <option class="fish">Halibut</option>
+        <option class="fish">Salmon</option>
+        <option class="fish">Tuna</option>
+        <option class="fish">Tilapia</option>
+        <option class="fish">Catfish</option>
+      </select>
+      <div id="quantity">
+        <h2>Quantity</h2>
+        <input type="text" class="form-control">
+        <select id="weight-unit" class="form-control">
+          <option></option>
+          <option>Lbs.</option>
+          <option>Kgs.</option>
+        </select>
+      </div>
+      <div id="delivery-date" class="form-control">
+        <label for="date">When would you like it delivered?</label>
+        <input id="date" class="form-control" type="date">
+      </div>
+    </div>
+  </body>
+</html>

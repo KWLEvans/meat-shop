@@ -1,0 +1,19 @@
+.radio-inline {
+  margin-top: 0px;
+}
+
+select {
+  margin-top: 20px;
+}
+
+#meat-type option {
+  display: none;
+}
+
+#quantity {
+  display: none;
+}
+
+#delivery-date {
+  display: none;
+}
