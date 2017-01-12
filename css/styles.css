@@ -17,3 +17,12 @@ select {
 #delivery-date {
   display: none;
 }
+
+#order {
+  display: none;
+  margin-top: 30px;
+}
+
+.row div:last-child ul {
+  list-style: none;
+}
